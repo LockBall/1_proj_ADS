@@ -11,4 +11,6 @@ it requires the following
   nand.cir
   inverter.cir
 
+i took a break from this project and have not re-verified functionality of it
 
+it uses ngspize 37
