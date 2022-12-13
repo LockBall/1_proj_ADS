@@ -1,0 +1,58 @@
+* Generator created 01 Oct 2022 by John Lutz. Editeded 02 Oct 2022
+* This file generated on: 02 Oct 2022
+
+.SUBCKT ring_osc_7 in0 out12 vdd 0
+
+    x0 in0 out0 vdd 0 inverter params:
+    + tplv=0.0631u tpotv=1.9707n tpwv=232.8923n 
+    + tnln=0.0705u tnwn=112.382n tnotv=1.9834n 
+
+    x1 out0 out1 vdd 0 inverter params:
+    + tplv=0.0657u tpotv=1.976n tpwv=207.9597n 
+    + tnln=0.0742u tnwn=141.0833n tnotv=1.9561n 
+
+    x2 out1 out2 vdd 0 inverter params:
+    + tplv=0.0693u tpotv=1.8336n tpwv=205.1342n 
+    + tnln=0.0712u tnwn=131.1515n tnotv=1.9518n 
+
+    x3 out2 out3 vdd 0 inverter params:
+    + tplv=0.0658u tpotv=1.8423n tpwv=199.7479n 
+    + tnln=0.0669u tnwn=122.0552n tnotv=1.8642n 
+
+    x4 out3 out4 vdd 0 inverter params:
+    + tplv=0.0655u tpotv=1.9021n tpwv=188.3762n 
+    + tnln=0.0581u tnwn=123.5698n tnotv=1.9547n 
+
+    x5 out4 out5 vdd 0 inverter params:
+    + tplv=0.0564u tpotv=1.8889n tpwv=209.4685n 
+    + tnln=0.0694u tnwn=130.1186n tnotv=1.9379n 
+
+    x6 out5 out6 vdd 0 inverter params:
+    + tplv=0.0611u tpotv=2.1038n tpwv=209.0567n 
+    + tnln=0.0573u tnwn=137.408n tnotv=1.6825n 
+
+    x7 out6 out7 vdd 0 inverter params:
+    + tplv=0.0723u tpotv=2.0686n tpwv=235.0289n 
+    + tnln=0.0729u tnwn=124.8624n tnotv=1.9642n 
+
+    x8 out7 out8 vdd 0 inverter params:
+    + tplv=0.0631u tpotv=1.9742n tpwv=237.4238n 
+    + tnln=0.0595u tnwn=136.8351n tnotv=1.986n 
+
+    x9 out8 out9 vdd 0 inverter params:
+    + tplv=0.0696u tpotv=2.1015n tpwv=214.5866n 
+    + tnln=0.0725u tnwn=123.2484n tnotv=1.8843n 
+
+    x10 out9 out10 vdd 0 inverter params:
+    + tplv=0.0711u tpotv=1.8246n tpwv=234.8337n 
+    + tnln=0.0706u tnwn=134.7458n tnotv=1.6994n 
+
+    x11 out10 out11 vdd 0 inverter params:
+    + tplv=0.0684u tpotv=1.8476n tpwv=205.4791n 
+    + tnln=0.0737u tnwn=112.697n tnotv=1.7428n 
+
+    x12 out11 out12 vdd 0 inverter params:
+    + tplv=0.0614u tpotv=2.0358n tpwv=219.4098n 
+    + tnln=0.0567u tnwn=130.6182n tnotv=2.0243n 
+
+.ENDS ring_osc.end
